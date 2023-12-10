@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+.code{
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+}
+.qr img{
+    width: 100%;
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 30px;
+}
+.text h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.text p{
+    padding: 15px;
+    font-size: 15px;
+    color: hsl(220, 2%, 33%);
+    font-weight: 400;
+}
